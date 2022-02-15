@@ -1,0 +1,139 @@
+/*
+? ====================
+?         fonts
+? ====================
+*/
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap");
+/*
+? ====================
+?       variables
+? ====================
+*/
+:root {
+  --clr-primary-1: #10cbb8;
+  --clr-primary-2: #2b4754;
+  --clr-primary-3: #f6f6f6;
+  --clr-primary-4: #ecedee;
+  --clr-primary-5: #797979;
+  --clr-light: #fff;
+  --section-padding: 60px;
+  --main-duration: 0.5s;
+}
+/*
+? ====================
+?     global rules
+? ====================
+*/
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  font-family: "Work Sans", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  display: block;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+img {
+  width: 100%;
+}
+.container {
+  padding-inline: 15px;
+  margin-inline: auto;
+}
+
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+/*
+? ====================
+?       components
+? ====================
+*/
+
+/*
+? ====================
+?       header
+? ====================
+*/
+
+/*
+? ====================
+?       landing
+? ====================
+*/
+
+/*
+? ====================
+?       features
+? ====================
+*/
+
+/*
+? ====================
+?       services
+? ====================
+*/
+
+/*
+? ====================
+?      portfolio
+? ====================
+*/
+
+/*
+? ====================
+?       About
+? ====================
+*/
+
+/*
+? ====================
+?       Contact
+? ====================
+*/
+
+/*
+? ====================
+?       footer
+? ====================
+*/
