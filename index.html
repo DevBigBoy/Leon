@@ -4,26 +4,86 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- * Icon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/leon.ico"
+      type="image/x-icon"
+    />
     <title>Leon</title>
-    <!-- * FontAwwsome -->
+    <!-- * FontAweSome -->
     <link rel="stylesheet" href="./assets/css/all.min.css" />
     <!-- ? Style CSS File -->
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
     <!-- * Start Header -->
-    <header class="header"></header>
+    <header class="header" id="header">
+      <div class="container">
+        <a href="./index.html">
+          <img src="./assets/images/logo.png" alt="Logo" class="logo" />
+        </a>
+        <nav class="links" id="links">
+          <span class="icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+          <ul class="list" id="list">
+            <li class="list-item">
+              <a href="#services" class="list-link">Services</a>
+            </li>
+            <li class="list-item">
+              <a href="#portfolio" class="list-link">Portfolio</a>
+            </li>
+            <li class="list-item">
+              <a href="#about" class="list-link">About</a>
+            </li>
+            <li class="list-item">
+              <a href="#contact" class="list-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <!-- * End Header   -->
 
     <!-- ? Start Main -->
-    <main></main>
+    <main>
+      <!-- * Start Landing -->
+      <section class="landing" id="landing">
+        <div class="intro-text">
+          <h1>Hello There</h1>
+          <p>We are Leon - Super Creative & Minimal Agency Web Template</p>
+        </div>
+      </section>
+      <!-- * End Landing -->
+
+      <!-- * Start Features -->
+      <section class="features" id="features"></section>
+      <!-- * End Features -->
+
+      <!-- * Start portfolio -->
+      <section class="portfolio" id="portfolio"></section>
+      <!-- * End portfolio -->
+
+      <!-- * Start About  -->
+      <section class="about" id="about"></section>
+      <!-- * End About  -->
+
+      <!-- * Start Contact -->
+      <section class="contact" id="contact"></section>
+      <!-- * End Contact -->
+    </main>
     <!-- ? End Main   -->
 
     <!-- * Start Footer -->
-    <footer class="footer"></footer>
+    <footer class="footer" id="footer"></footer>
     <!-- * End Footer   -->
 
-    <!-- ? Js File -->
+    <!--? ScrollReveal -->
+    <script src="./assets/js/scrollreveal.min.js"></script>
+    <!--? Js File -->
     <script src="assets/js/main.js"></script>
   </body>
 </html>
